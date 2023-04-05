@@ -1,0 +1,236 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* -->> HERO SECTION*/
+  .hero-img {
+    position: relative;
+    /* width: 50%; */
+  }
+
+  .hero-content .hero-img {
+    display: none;
+  }
+
+  .hero-lg {
+    display: block;
+  }
+
+  .hero-field {
+    gap: 36px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  /* <<-- HERO SECTION END*/
+
+  /* -->> ABOUT SECTION*/
+  .about-content {
+    flex-direction: row;
+  }
+  /* <<-- ABOUT SECTION END*/
+
+  /* -->> VALUE SECTION*/
+  .value-items {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .value {
+    padding: 84px 0;
+  }
+
+  .value-title,
+  .value-subtitle {
+    text-align: center;
+  }
+
+  .value-card {
+    min-height: 402px;
+    min-width: 332px;
+  }
+
+  .title-value {
+    font-size: 20px;
+  }
+  /* <<-- VALUE SECTION END*/
+
+  /* -->> CLASS SECTION START  */
+  .class-row {
+    flex-direction: row;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+  .h1 {
+    font-size: 40px;
+  }
+
+  /* -->> HERO SECTION*/
+  .hero-field {
+    gap: 56px;
+    padding-top: 50px;
+  }
+
+  /* HERO TEXT */
+  .hero-text .overline {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .hero-text .hero-title {
+    font-size: 56px;
+    line-height: 136%;
+  }
+
+  .hero-p-m {
+    display: none;
+  }
+
+  .hero-p-l {
+    display: block;
+    margin-top: 16px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-img .img-box {
+    width: 90%;
+  }
+  /* <<-- HERO SECTION END*/
+
+  /* -->> ABOUT SECTION*/
+  .about {
+    padding: 84px 0;
+  }
+
+  .about-content {
+    flex-direction: row;
+    margin-top: 56px;
+  }
+
+  .about-left .about-video iframe {
+    height: 308px;
+  }
+
+  .about-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+  }
+  /* <<-- ABOUT SECTION END*/
+
+  /* -->>VALUE SECTION START */
+  .value-items {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  /* <<-- VALUE SECTION END*/
+
+  /* -->>CLASS SECTION START */
+  .class {
+    width: 100%;
+    padding: 108px 0;
+  }
+
+  .class-field {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+  }
+
+  .class-card {
+    min-width: 332px;
+  }
+  /* <<-- CLASS SECTION END*/
+
+  /* -->>TRIAL SECTION START */
+  .trial {
+    padding: 84px 0;
+  }
+
+  .trial-field {
+    flex-direction: row;
+  }
+
+  .trial-field .poster-lg {
+    display: block;
+  }
+
+  .trial-content .md-poster {
+    display: none;
+  }
+
+  .trial-title {
+    font-size: 48px;
+  }
+
+  .trial-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 50%;
+  }
+
+  .trial-poster {
+    width: 50%;
+  }
+
+  .trial-cta {
+    flex-direction: row;
+  }
+  /* <<-- TRIAL SECTION END*/
+
+  /* -->>>CTA SECTION START-- */
+  /* .cta, .cta .linear-bg{
+    min-height: 680px;
+  } */
+
+  .cta-field {
+    padding: 84px 0;
+    align-items: center;
+  }
+
+  .cta-logo {
+    width: 220px;
+  }
+
+  .cta-header .overline {
+    text-align: center;
+  }
+
+  .cta-header .cta-title {
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .cta-content .cta-p,
+  .cta-content .cta-academicdate {
+    text-align: center;
+  }
+  /* <<-- CTA SECTION END*/
+
+  /* -->>>FOOTER SECTION START-- */
+  .footer-field {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px 0px;
+    gap: 48px;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    width: 455px;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...} */
